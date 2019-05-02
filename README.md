@@ -2,7 +2,7 @@
 
 A blockchain implementation in Python only for hw2.
 
-The Blockchain-python implements simple blockchain. The communication between nodes is via rpc based on http, rather than p2p network. Because the implementation of P2p is more complicated, it is too complicated to understand the framework of blockchain.   
+The Blockchain-python implements simple blockchain. The communication between nodes is via rpc based on http, rather than p2p network. Because the implementation of 2p is more complicated, it is too complicated to understand the framework of blockchain.   
 
 ## Usage
 
