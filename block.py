@@ -23,7 +23,7 @@ class Block(Model):
         Refer to bitcoin block header hash
         """  
 
-        return hashlib.sha256((self.version) + (str(self.block_height) + str(self.merkle_root) + str(self.target) + str(self.prev_block)).encode('utf-8')).hexdigest()
+        return hashlib.sha256((str(self.block_height) + (self.version) + str(self.merkle_root) + str(self.target) + str(self.prev_block)).encode('utf-8')).hexdigest()
 
     def pow(self):
         """
